@@ -7,7 +7,7 @@ function newItem() {
   li.append(inputValue);
   
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("You've got things to do!");
   } else { 
     list.append(li); // remember that (li) is not a string and no '' needed
   }
